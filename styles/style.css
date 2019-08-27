@@ -1,0 +1,108 @@
+/**********-----Global Styles-----**********/
+html {
+    height: 100%;
+}
+body {
+    background-color: #FC5E55;
+    background-image: linear-gradient(to left,#FC5E55, #FA4083);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    color: white;
+}
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+h1, h2, .myButton {
+    font-family: 'Playfair Display', serif;
+}
+
+/* **********-----Header Styles-----******* */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* *********-----Main Styles-----********* */
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.herobox1 {
+            flex: 2;
+            padding-right: 80px;
+        }
+.herobox2 {
+            flex: 1;
+        }
+h1 {
+    font-size: 3.25rem;
+    padding-bottom: 1.5rem;
+}
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+.myButton {
+    color: #FC5E55;
+    background-color: white;
+    padding: 11px 25px;
+    font-size: 1.35rem;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px rgba(27, 20, 20, 0.349);
+}
+
+/* *********-----Card Styles-----********* */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+h2 {
+    font-size: 2rem;
+    margin-top: 5px;
+}
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.25rem;
+    margin: 20px 15px;
+}
+.cards i {
+    font-size: 100px;
+    color: white;
+    padding-bottom: 20px;
+}
+.card1, .card2, .card3 {
+    background-color: rgb(250, 154, 242);
+    width: 30%;
+    min-height: 250px;
+    background-size: cover;
+    background-position: bottom;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(27, 20, 20, 0.349);
+}
+.card1 {
+    background-image: url(../images/image-background-card1.jpg);
+}
+.card2 {
+    background-image: url(../images/image-background-card2.jpg);
+}
+.card3 {
+    min-height: 250px;
+    background-image: url(../images/image-background-card3.jpg);
+}
+
+
+/* *********-----Footer Styles-----********* */
