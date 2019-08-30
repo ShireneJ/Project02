@@ -1,10 +1,12 @@
 /**********-----Global Styles-----**********/
 html {
     height: 100%;
+    background-image: linear-gradient(to left,#FC5E55, #FA4083);
 }
 body {
-    background-color: #FC5E55;
-    background-image: linear-gradient(to left,#FC5E55, #FA4083);
+    background-image: url(../images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
     color: white;
@@ -13,7 +15,7 @@ body {
     width: 1024px;
     min-height: 300px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;z
 }
 a {
     color: white;
@@ -45,9 +47,10 @@ header {
     display: none;
     position: absolute;
     z-index: 1;
-    padding-top: 10px;
+    margin-top: 10px;
     text-align: center;
     background-color: white;
+    padding-bottom: 5px;
 }
 .navButton:hover .dropdown {
     display: block;
