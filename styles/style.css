@@ -105,11 +105,18 @@ p {
     margin-top: 35px;
 }
 
+/* *********-----Form Styles-----********* */
+.inputWrapper {
+    margin-bottom: 20px;
+
+}
+
 /* *********-----Card Styles-----********* */
 .cards {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin-top: 20px;
 }
 h2 {
     font-size: 2rem;
